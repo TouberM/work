@@ -1,0 +1,60 @@
+*{box-sizing: border-box;}
+body,h1,h2,h3,h4,h5,h6,p,ol,ul,li{margin:0;padding:0;}
+body{font-size:16px;padding-bottom: 26vw;}
+.fl{float: left;}
+.fr{float: right;}
+.clear:after{content: '';display: block;clear: both;}
+
+.banner{width:100%;}
+/*Feature*/
+.feature{padding:5vw;}
+.feature .cell{width:30vw;padding-bottom: 5vw;text-align: center;}
+.feature .cell span{width:20vw;height:20vw;background-repeat: no-repeat;background-size: 100% 100%;display: block;margin-left:5vw;}
+.feature .cell.second span{background-image: url(images/feature_2.jpg);}
+.feature .cell.third span{background-image: url(images/feature_3.jpg);}
+.feature .cell.fourth span{background-image: url(images/feature_4.jpg);}
+.feature .cell div.fl{width:30vw;padding:1vw;}
+.feature .cell div.fl h4{font-size:4vw;padding-bottom: 1vw;color:#4d4d4c;}
+.feature .cell div.fl p{font-size:3vw;color:#4d4d4c;text-align: left;}
+/*Hot*/
+.hot .title{width:100%;margin-bottom: 5vw;}
+.hot .main{width:96vw;margin:0 auto;border:1px solid #ddd;border-left:1vw solid #ddd;}
+.hot .main h4{font:normal 4vw/8vw "microsoft yahei";color:#512d33;background-color: #f1f1f1;padding-left:4vw;}
+.hot .main span{width:36vw;font-size:4vw;margin:3vw 5vw ;text-align: center;color:#666;border:1px solid #aaa;line-height: 8vw;border-radius: 3vw;}
+.hot .bottom p{text-align: center;color:#a8a8a8;font-size: 4vw;line-height: 16vw;}
+.hot .bottom a{text-align: center;display: block;width:80vw;background:url(../images/hot_btn2.jpg) repeat top center;background-size: contain;margin:2vw auto;font-size:5vw;line-height: 8vw;font-weight: bold;color:#fff;border-radius: 4vw;overflow: hidden;}
+/*Flow*/
+.flow_open{width:50vw;margin:6vw auto;display: block;}
+.flow_open img{width:100%;}
+.flow{background:#fceeeb;text-align: center;padding-bottom:6vw;display: none;}
+.flow img{display: block;margin:0 auto;}
+.flow h3{font-size: 6vw;color:#7c7a7a;padding:5vw 0 1vw;}
+.flow>p{font-size:4vw;color:#999;margin-bottom:5vw;}
+.flow .cell img{padding-bottom: 3vw;}
+.flow .cell h4{font-weight: normal;font-size:5vw;color:#706e6e;line-height: 7vw;}
+.flow .cell p{color:#bbb7b7;font-size:4vw;line-height: 6vw;}
+.flow>img{margin:4vw auto;}
+/*About*/
+.about{padding:6vw 10vw 10vw;}
+.about h3{text-align: center;font-size: 6vw;font-weight: normal;color:#414143;}
+.about p{font-size:4vw;text-align: justify;color:#8f9195;text-indent: 2em;}
+/*FAQ*/
+.faq{background:#fceeeb;margin-bottom: 10vw;}
+.faq h3{color:#414143;font-size: 6vw;text-align: center;padding:6vw 0;font-weight: normal;}
+.faq h4{font-size:4vw;padding: 0 0 2vw 4vw;font-weight: normal;}
+.faq h4 span{color:#41ace9;}
+.faq p{color:#808181;font-size: 4vw;line-height: 6vw;padding:0 10vw 4vw;text-indent: 2em;}
+.faq h2{color:#808181;font-size:5vw;font-weight: normal;text-align: center;letter-spacing: 0.2vw;padding-bottom: 55px;padding-top:20px;}
+/*Form*/
+#form{width:90vw;background:#fff;position: relative;border-radius: 1vw;overflow: hidden;text-align: center;border:1px solid #ccc;padding-bottom: 3vw ;margin:0 auto;}
+#form h3{height:10vw;font-size:6vw;line-height: 10vw;color:#a77442;font-weight: normal;letter-spacing: 0.2vw;border-bottom:2px solid #ddd;background:#eee;margin-bottom: 3vw;}
+#form input{display: inline-block;margin-bottom: 3vw;width:86vw;height:10vw;border-radius: 6px;outline: none;border:1px solid #eee;padding:0 2vw;font-size: 5vw;outline: none;}
+#form .verify{width:44vw;border-radius: 6px;margin-right: 2vw;}
+#form .getVerify{width:40vw;height:10vw;vertical-align: top;border-radius:6px;padding:0;background:#d3bfac;color:#fff;font-weight:bold;-webkit-appearance:none;}
+#form .hint{width:86vw;font-size: 3vw;display: block;margin: 0 auto;text-align: left;height:5vw;padding-left:2vw;}
+#form .sub{width:86vw;height:10vw;font-size:5vw;line-height: 10vw;color:#fff;background: url(../images/form_btn.jpg) repeat-x;background-size: contain;border:none;}
+
+/*fix*/
+.fix{position: fixed;bottom:0;left:0;width:100vw;background: url(../images/fixed.jpg);background-size: 100% 100%;}
+.fix h4{text-align: center;font:bold 4vw/5vw "microsoft yahei";color:#ffb567;margin:3vw auto 1vw;}
+.fix a{background:url(../images/fix_btn.png?v0.1.0) repeat;width:60vw;display: block;margin:2vw auto 3vw;line-height: 6vw;border-radius: 3vw;text-align: center;font-weight: bold;color:#fff;font-size: 4vw;text-decoration: none;}
