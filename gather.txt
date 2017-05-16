@@ -1,0 +1,5 @@
+SSH Secure File Transfer Client
+Host	 ==>	123.56.226.17
+User	 ==>	td_r_user
+Port	 ==>	58964
+password ==>	flzx3000K

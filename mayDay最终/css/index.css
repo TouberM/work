@@ -1,0 +1,311 @@
+/*reset*/
+html,body,div,ul,li,h1,h2,h3,h4,h5,h6,p,img,form,input,button{margin:0;padding:0;}
+ul,ol,dl,li{list-style: none;}
+a{text-align: center;}
+img{border:none;vertical-align: middle;}
+.fl{float:left;}
+.fr{float: right;}
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+/*END reset*/
+
+/*layout*/
+
+.wrap{position: relative;overflow: hidden;z-index: 1;}
+/*图片属性更改*/
+.header{background:#fff url(../img/header.jpg) no-repeat top center;height:851px;position: relative;}
+.b_t{width:100%;max-width:1920px}
+.ruleDetail{height:451px;background:#fff url(../img/ruleDetail.jpg) no-repeat center top;}
+.detailTable{height:552px;background:#a81a19;display: none;}/*默认隐藏*/
+.prize1{height:466px;background:#fff url(../img/prize1.jpg) no-repeat top center;}
+.prize2{height:516px;background:#fff url(../img/prize2.jpg) no-repeat top center;}
+.prize3{height:543px;background:#fff url(../img/prize3.jpg) no-repeat top center;}
+.prize4{height:509px;background:#fff url(../img/prize4.jpg) no-repeat top center;}
+.contain{width:958px;height:100%;margin:0 auto;position: relative;z-index: 2;}
+/*END layout*/
+/*header*/
+ul.flag{width:1055px;height:317px;background:url(../img/flag.png) no-repeat center center;position: absolute;top:595px;z-index: 9;padding-left:1.9%;}
+ul.flag li{width:23.2%;float:left;position: relative;text-align: center;margin-top:3%;}
+ul.flag .info{border-radius: 50%;overflow: hidden;max-width: 100%;}
+ul.flag .info img{border-radius:50%;cursor: pointer;position: relative;z-index:1;margin-bottom: 0.9%;max-width: 100%;}
+ul.flag li span{color:gray;font-family: "微软雅黑";}
+/*END header*/
+/*ruleDetail活动细节*/
+.ruleDetail .contain{width:844px;height:405px;padding:30px 0 0 114px;margin:0 auto}
+.ruleDetail .contain p{font:normal 22px/30px "微软雅黑";color:#dbd5b1;padding:10px 0;}
+.ruleDetail .contain span{font-size:12px;color:#dbd5b1;}
+.ruleDetail .contain a{display:block;position:absolute;}
+.ruleDetail .contain a.join{width:182px;height:54px;bottom:75px;right:201px;background:url(../img/ruleDetail/ruleDetail_join.jpg) no-repeat center center;}
+.ruleDetail .contain a.check{width:105px;height:27px;right:-150px;bottom:-8px;background:url(../img/ruleDetail/ruleDetail_check.jpg) no-repeat center center;}
+/*END ruleDetail活动细节*/
+/*detailTable表格 收缩/展开*/
+.detailTable .contain{width:924px;height:506px;padding:46px 0 0 34px;}
+.detailTable table{width:920px;height:437px;border-collapse: collapse;border:3px solid #e9e6b9;}
+.detailTable table th,.detailTable table td{border:2px solid #e9e6b9;text-align: center;color:#e7e5b5;font-family: '黑体';position: relative;}
+.detailTable table tr{height:82px;}
+.detailTable table tr.first{height:119px;}
+.detailTable table th{font-size:28px;}
+.detailTable table td{font-size:18px;}
+.detailTable table span{display: block;}
+.detailTable table th.first{width:322px;background:url(../img/table_bj.jpg) no-repeat center;background-size: contain;}
+.detailTable table th span{position: absolute;}
+.detailTable table th span.first{left:10px;bottom:10px;}
+.detailTable table th span.second{right:10px;top:10px;}
+/*.detailTable table th.first::before{content: ""; position: absolute; width: 2px; height:346.1px; top:-1px; left:-2px; background-color: #e9e6b9; display: block; transform: rotate(-70deg); transform-origin: top;}*/
+/*END detailTable表格 收缩/展开*/
+
+/*prize奖品细节*/
+.prize .clear{margin-top:30px;}
+.prize .clear.first{margin:0;}
+.prize .txt{width:361px;}
+.prize .txt.fr{margin-right:124px;}
+.prize .txt.fl{margin-left:55px;}
+.prize .txt h4{height:33px;font:bold 24px/33px "仿宋";color:#fff;}
+.prize .txt hr{border-color:#d5af93;border-style: dashed;margin:5px 0; }
+.prize .txt p{font:normal 19px/33px '黑体';color:#fd6e6e;}
+.prize .txt img{margin:10px 0;width:352px;height:62px;}
+.prize .txt a{width:159px;height:54px;display: block;margin: 0 auto;background: url(../img/prize/prize_btn.jpg) no-repeat center center;margin-top:5px;}
+.prize .photo{width:335px;height:394px;border:2px solid #dbd5b1;}
+.prize .photo.fl{margin-left:58px;}
+.prize .photo.fr{margin-right: 135px;}
+.prize .photo img{width:314px;height:357px;margin:19px 0 0 11px;cursor:pointer;}
+/*END prize奖品细节*/
+
+
+/*show产品预览*/
+.show{width:100%;height:100%;position: absolute;top:0;left:0;background: rgba(0,0,0,0.5);z-index: 100;text-align: center;display: none;display: none;}
+.show .show_bg{width:100%;height:100%;background:gray;opacity: 0.5;filter:alpha(opacity=50);z-index: 1;position: absolute;top:0;left:0}
+.show img{max-width:100%;max-height:100%;vertical-align: middle;position: relative;z-index: 2;}
+.show a.prev,.show a.next{display: inline-block;color:#dbd5b1;font-size: 60px;font-weight:bold;text-decoration: none;text-shadow: 2px 2px 2px #333;width:45px;height:100%;position: relative;z-index: 2;}
+.show a.prev:hover,.show a.next:hover{text-shadow: 2px 2px 2px darkred;z-index: 1;position: relative;z-index: 2;}
+/*.show a.close{position: absolute;top:25px;right:25px;width:45px;height:45px;font-size:30px;z-index: 10;color:lightcoral;border-radius: 50%;border:2px solid lightcoral;background: lightgoldenrodyellow;text-decoration: none;line-height: 45px;font-weight: bold;position: relative;z-index: 2;}*/
+/*END show产品预览*/
+
+/*register开户参与*/
+.register{width:100%;height:100%;position: fixed;top:0;left:0;background: rgba(0,0,0,0.5);z-index: 100;text-align: center;display: none;}
+.register form{width:484px;height:390px;position: absolute;top:50%;left:50%;margin-top:-242px;margin-left:-195px;background: url(../img/register/register_bg.jpg) no-repeat center top;border-radius: 6px;overflow: hidden;}
+.register form h3{width:484px; height:66px;background:url(../img/register/register_title.jpg);color:#981712;font:normal 28px/66px '黑体';}
+.register form button.sure{display: block;width:420px;height:66px;padding-bottom:11px;border:none;background:url(../img/register/register_btn.jpg);font:normal 28px/66px '黑体';color:#fff2d9;position: absolute;bottom:21px;left:50%;margin-left:-210px;cursor: pointer;}
+.register form input{width:410px;height:50px;font:normal 24px/50px "微软雅黑";padding-left:10px;outline: none;color:#666;border:none;border-left:1px solid #e0ded7;border-right:1px solid #e0ded7;display: block;position:absolute;left:33px;top:156px;}
+.register form input.first{border:1px solid #e0ded7;border-radius: 4px 4px 0 0;top:104px;}
+.register form input.last{width:280px;padding-right:130px;border:1px solid #e0ded7;border-radius:0 0 4px 4px;top:206px;}
+.register form .auth{position:absolute;width:180px;height:40px;bottom:138px;right:40px;display: block;color:#fff2d9;background:#4c9ed9;border:none;border-radius: 4px;font:normal 18px/36px "微软雅黑";cursor: pointer;}
+.register form span.hint{display:block;margin-top:206px;padding-left:33px;text-align: left;font-size:12px;}
+.register a.close{display:block;position:absolute;top:10px;right:10px;font-size:30px;z-index: 10;color:lightcoral;text-decoration: none;z-index: 10;font-weight: bold;}
+/*END register开户参与*/
+
+/*弹窗效果*/
+/* Preload images */
+body:after {
+  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
+  display: none;
+}
+
+body.lb-disable-scrolling {
+  overflow: hidden;
+}
+
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+}
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 3px;
+
+  /* Image border */
+  border: 4px solid white;
+}
+
+.lightbox a img {
+  border: none;
+}
+
+.lb-outerContainer {
+  position: relative;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+
+  /* Background color behind image.
+     This is visible during transitions. */
+  background-color: white;
+}
+
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(../images/loading.gif) no-repeat;
+}
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.lb-container > .nav {
+  left: 0;
+}
+
+.lb-nav a {
+  outline: none;
+  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+}
+
+.lb-prev, .lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+
+.lb-nav a.lb-prev {
+  width: 34%;
+  left: 0;
+  float: left;
+  background: url(../images/prev.png) left 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-prev:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(../images/next.png) right 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-next:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-data {
+  padding: 0 4px;
+  color: #ccc;
+}
+
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.lb-data .lb-caption a {
+  color: #4ae;
+}
+
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(../images/close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+

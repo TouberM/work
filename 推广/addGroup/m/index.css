@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,table,tr,th,td{margin:0;padding:0;}
+.fl{float:left;}
+.fr{float:right;}
+.show{display:block;}
+.hide{display: none;}
+.clear{zoom:1;}
+.clear:after{content:'';display: block;clear:both;}
+a{text-decoration: none;color: inherit;}
+img{border:none;vertical-align: middle;display: block;}
+
+body{background:url(../images/bg.jpg) no-repeat;background-size: 100% 100%;font-size: 16px;}
+header{margin:10vw auto 5vw;width:90vw;}
+header .logo{width:30vw;}
+header .fr{width:58vw;}
+header .fr .topImg{width:100%;}
+header .fr .midImg{width:100%;padding:2vw 0;border-radius: 6px;}
+header .bottom a{width:20vw;}
+header .bottom a img{width:100%;}
+header .bottom p{width:38vw;font-size:2vw ;font-family: "黑体";line-height:5vw;}
+header .bottom p span{font-family: "楷体";}
+.line{width:100vw;height:1vw;background:#8c1d22;}
+.scrollTitle{width:96vw;margin:5vw auto;}
+.poster{width:90vw;margin:0 auto;}
+.poster img{width:100%;margin-bottom:2vw;}
+.table_title{width:100vw;margin:5vw auto 0;}
+.table_body{width:94vw;position: relative;margin:-2vw auto 0;}
+.kernel_title{width:100vw;margin:5vw auto 3vw;}
+.kernel{width:90vw;margin:2vw auto 0;border:2px solid #8c1d22;background: #fff;border-radius: 4px;overflow: hidden;}
+.kernel h3{width:100%;font-size:1rem;background:#8c1d22;text-align: center;color:#fff;line-height: 2rem;letter-spacing: 0.6rem;}
+.kernel img{width:86vw;margin:2vw auto;border-radius: 6px;overflow: hidden;}
+.kernel h5{width:86vw;margin:1vw auto;font-size: 0.825rem;font-weight: normal;}
+.kernel p{width:86vw;margin:1vw auto 3vw;font-size: 0.825rem;}
+.kernel p a,.kernel p span{color:#8c2126;font-weight: bold;}
+.join{width:90vw;margin:5vw auto;}
+.join .logo{width:30vw;}
+.join .fr{width:58vw;}
+.join .fr a img{width:100%;border-radius: 4vw;}
+.join .fr>img{width:100%; margin-top:4vw;}
+.quickMark{width:30vw;margin:5vw auto 0;}
+body>h3{font-size:1.5rem;text-align: center;margin-top:4vw;}
+body>p{font-size: 1rem;color:#666;text-align: center;margin:2vw auto 10vw}

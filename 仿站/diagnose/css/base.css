@@ -1,0 +1,78 @@
+/* common */
+*{margin:0;padding:0}
+body{font:normal 14px/28px "Microsoft YaHei","Helvetica","Arial","sans-serif"; color:#000; background:#fff;margin-top:30px;}
+li,ol{list-style:none}
+.red{color:#F00}
+a{text-decoration:none; color:#636363}
+a:hover{text-decoration:none}
+img,a img{border:0}
+/**/
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
+.clearfix{display:inline-block}
+*html .clearfix{height:1%}
+.clearfix{display:block}
+/**/
+.top-banner{width:auto;background:#fff;text-align:center; height:585px; overflow:hidden}
+.top-banner .pic1{background:url("bg01.jpg")/*tpa=http://product.91huagu.com/zt/ycq/img/bg01.jpg*/ no-repeat center 0;height:78px}
+.top-banner .pic2{background:url("bg02.jpg")/*tpa=http://product.91huagu.com/zt/ycq/img/bg02.jpg*/ no-repeat center 0;height:78px}
+.top-banner .pic3{background:url("bg03.jpg")/*tpa=http://product.91huagu.com/zt/ycq/img/bg03.jpg*/ no-repeat center 0;height:124px}
+.top-banner .pic4{background:url("bg04.jpg")/*tpa=http://product.91huagu.com/zt/ycq/img/bg04.jpg*/ no-repeat center 0;height:127px}
+.top-banner .pic5{background:url("bg05.jpg")/*tpa=http://product.91huagu.com/zt/ycq/img/bg05.jpg*/ no-repeat center 0;height:178px}
+
+/**/
+.block1{ width:980px; margin:0 auto; position:relative}
+.userNo1{width:800px; height:136px;  position:absolute;top:-324px;left:10px; z-index:999}
+.userNo1 .cont{ padding:60px 0 0;}
+.userNo1 input{float:left;margin:0}
+.userNo1 .inputxt0{ margin-right:20px}
+
+/**/
+.inputxt0{border:1px solid #780100;background:#fff;color:#4e4e4e;font-size:18px;padding-left:15px;width:220px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+-moz-box-shadow:inset 4px 3px 2px #b7b9bd;
+-webkit-box-shadow:inset 4px 3px 2px #b7b9bd;
+box-shadow:inset 4px 3px 2px #b7b9bd}
+.inputxt0{height:54px;line-height:50px}
+.inputxt0:focus,.inputxt:focus{background:#fffff3}
+.userNo1 .inputxt0.name{width:140px;}
+.userNo1 .inputxt0.tel{width:140px;}
+.userNo1 .inputxt0.verify{width:80px;margin-right:0;}
+.userNo1 .inputxt0.getVerify{width:140px;cursor: pointer;height:56px;text-align: center;padding-left:0;color:#d32400;font-weight: bold;}
+.sub{height:60px;width:173px;border:0; cursor:pointer; background:url("btn.gif") no-repeat left 0;outline: none;}
+.userNo1 p.hint{clear: both;text-align: right;padding-right: 30px;font-size: 12px;margin:0;color:#fff;}
+
+/**/
+.autoW{text-align:center; margin:40px auto 15px auto;}
+.digitallyBg{background:url("line.gif")/*tpa=http://product.91huagu.com/zt/ycq/img/line.gif*/ repeat-x 0 0; height:4px; display:block; width:100%; margin:50px auto}
+
+.layout{ width:920px; margin:20px auto; text-align:left; font-size:14px;}
+.layout p{ text-indent:28px}
+/**/
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
+.clearfix{display:inline-block}
+*html .clearfix{height:1%}
+.clearfix{display:block}
+
+/***************/
+.resultMain{ margin:-170px auto 0 auto; width:728px;}
+.resultMain h1{ font-size:30px; line-height:40px; color:#c60000; text-align:center; margin-bottom:15px}
+.dataBox{ border:3px solid #9b9b9b; background:#f2f2f2; padding:10px 0 15px 120px; height:136px; overflow:hidden; font-size:16px; border-radius:14px; line-height:32px}
+#rollUp{width:530px;height:136px;overflow: hidden;position: relative;}
+#rollUp ul{width:100%;position: absolute;top:0;left:0;margin:0;padding:0;}
+#rollUp ul li{height:34px;}
+
+
+
+
+.dataBox span{ margin-right:20px}
+.dataBox span b{ margin-left:5px}
+.totalBox{ font-size:14px; text-align:center; margin:10px 0}
+.totalBox span{ margin:0 20px}
+.totalBox b{ color:#F00; margin:0 5px}
+
+
+
+
+/**/

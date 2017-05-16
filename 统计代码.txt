@@ -1,0 +1,32 @@
+股指发俱乐部
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d9fd328e2eedde20a7b766cd7e808297";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+天地银合
+<script src="https://s96.cnzz.com/z_stat.php?id=1000202858&web_id=1000202858" language="JavaScript"></script>
+
+
+
+168股指网
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?58d51971c5e4e4ada82fad2b50d74a94";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+股指发双桥
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F30feaf8d01133171c101896e2e402e52' type='text/javascript'%3E%3C/script%3E")) </script>
+

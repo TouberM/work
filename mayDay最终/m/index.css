@@ -1,0 +1,96 @@
+/*reset*/
+html,body,div,ul,li,h1,h2,h3,h4,h5,h6,p,img,form,input,button,hr{margin:0;padding:0;box-sizing: border-box;}
+html{font-size:16px;}
+ul,ol,dl,li{list-style: none;}
+a{text-align: center;}
+img{border:none;vertical-align: middle;}
+.fl{float:left;}
+.fr{float: right;}
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+/*END reset*/
+
+/*layout*/
+body{background:url(img/body.jpg) repeat-y center 40vw;background-size: 100%;}
+img.bg{width:100%;}
+.wrap{position: relative;overflow: hidden;z-index: 1;}
+.contain{height:100%;margin:0 auto;position: relative;z-index: 2;}
+/*END layout*/
+/*屏幕宽415 100%
+ * ul 312 75%
+ * li 78  25%
+ */
+/*activeTime*/
+.activeTime {padding:5vw;}
+.activeTime img{display: block;margin: 0 auto;}
+/*ENd activeTime*/
+/*prize_bj*/
+.prize_bj {position: relative;}
+.prize_bj ul{position:absolute;width:90vw;top:5vw;left:3vw;}
+.prize_bj ul li{width:23vw;float:left;position: relative;;text-align: center;}
+.prize_bj ul li:nth-of-type(3){margin-left:1vw;}
+.prize_bj ul li:nth-of-type(4){width:20vw;margin-left:0;}
+.prize_bj li img{border-radius:50%;width:70%;}
+.prize_bj ul li:nth-of-type(4) img{width:80%;}
+/*END prize_bj*/
+/*屏幕宽              415 100%
+ * contain 209 50%
+ */
+
+.title_rule img{display: block;margin: 0 auto;max-width:80vw;}
+/*ruleDetail活动细节*/
+.ruleDetail .contain{width:80vw;margin:5vw auto;}
+.ruleDetail .contain p{font:normal 1rem/1.5rem "微软雅黑";color:#fff;}
+.ruleDetail .contain span{font:normal 0.8rem/1.5rem "微软雅黑";color:#fff;}
+/*END ruleDetail活动细节*/
+/*detailTable表格 */
+.detailTable h3{color:#fff;text-align: center;font:bold 1.2rem/2rem "黑体";}
+
+.detailTable table{width:90vw;border-collapse: collapse;border:1px solid #e9e6b9;margin: 3vw auto;}
+.detailTable table th,.detailTable table td{border:1px solid #e9e6b9;text-align: center;color:#e7e5b5;font-family: '黑体';position: relative;}
+.detailTable table tr{height:13vw;}
+.detailTable table tr.first{height:14vw;}
+.detailTable table th{font-size:0.825rem;}
+.detailTable table td{font-size:0.825rem;}
+.detailTable table span{display: block;}
+.detailTable table th.first{width:45vw;overflow: hidden;/*background:url(../img/table_bj.jpg) no-repeat center;background-size: contain;*/}
+.detailTable table th span{position: absolute;}
+.detailTable table th span.first{left:5px;bottom:5px;}
+.detailTable table th span.second{right:5px;top:5px;}
+.detailTable table th.first::before{content: ""; position: absolute; width: 1px; height:48vw; top:-1px; left:-2px; background-color: #e9e6b9; display: block; transform: rotate(-73deg); transform-origin: top;}
+/*END detailTable表格 */
+
+
+.title_list img{display: block;margin: 0 auto ;max-width:80vw;}
+/*屏幕宽        415 100%
+ * clear 235 56%
+ */
+/*prize奖品细节*/
+.prize .clear{margin:5vw auto 0;width:90vw;background:#c22e2e;}
+.prize .txt{width:90vw;padding:2vw 2vw;}
+.prize .txt h4{height:1.5rem;font:bold 1rem/1.4rem "仿宋";color:#fff;text-align: center;border-top:1px  dashed #d5af93;border-bottom:1px  dashed #d5af93;margin:2vw 0;}
+.prize .txt h4.first{border-bottom:none;margin-bottom:0;}
+.prize .txt h4.last{border-top:none;margin-top:0;}
+.prize .txt p{font:normal 0.825rem/1rem '黑体';color:#fd6e6e;margin:1vw 0;text-align: center;}
+.prize .txt hr{border-color:#d5af93;border-style: dashed;margin:5px 0; }
+.prize .txt img{margin: 0 auto;display:block;width:40vw;}
+.prize .photo{width:90vw; height:38vw;border:1px solid #dbd5b1;position: relative;overflow:hidden;text-align: center;}
+.prize .photo img{width:100%;height:38vw;cursor:pointer;position: absolute;top:0;left:0;}
+.prize .photo img.first{position: relative;}
+/*END prize奖品细节*/
+
+
+
+/*register开户参与*/
+.register{width:100vw;background: #a81a19;text-align: center;padding:2vw;margin-top:5vw;}
+.register form{width:80vw;background: url(img/register/register_bg.jpg) no-repeat center top;border-radius: 6px;background-size:cover;overflow: hidden;margin:0 auto;}
+.register form>img{width:100%;}
+.register form>h4{width:100%;text-align: center;}
+.register form input{padding-left:1%;width:80%;height:2rem;font:normal 0.825rem/2rem "微软雅黑";outline: none;color:#666;border:1px solid #e0ded7;display: block;border-radius: 4px;margin:2% auto;}
+.register form .auth{width:80%;height:2rem;display: block;color:#fff2d9;background:#4c9ed9;border:none;border-radius: 4px;margin:0 auto;border:1px solid #e0ded7;outline: none;font:normal 0.825rem/2rem "微软雅黑";}
+.register form span.hint{display:block;width:80%;margin:0 auto;text-align: left;font-size:0.75rem;font-family: "微软雅黑";height:1.4rem;color:red;}
+.register form button.sure{display: block;width:80%;border:none;margin: 2% auto;border-radius: 4px;overflow: hidden;}
+.register form button.sure img{width:100%;}
+/*END register开户参与*/
+
+.ui-loader{display: none;}

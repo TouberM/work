@@ -1,0 +1,370 @@
+/*** xixi_基本结构↓ start ***/
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	color: #000;
+	font: 20px Microsoft Yahei, Verdana, Helvetica, sans-serif;
+	text-align: center;}
+a {
+	color: #7d0000;
+	text-decoration: none;}
+a:hover {
+	color: #ffec26;}	/* 红变黄 */
+img {
+	border: none;}	/* 图片没框 */
+
+.xixi_zm_wap_dragon_main {
+	margin: 0 auto;
+	width: 640px;
+	height: auto;
+	text-align: center;
+	background:#efefef;}
+
+.head1 {
+	margin: 0 auto;
+	width: 640px;
+	height: 446px;
+	background-image: url("../images/banner.jpg")/*tpa=http://jin808.com/sina1/mvcg/images/banner.jpg*//*tpa=http://www.jin808.com/sina/20170307/images/banner.jpg*/;
+	position:relative;
+	
+}
+/* 头 */
+
+.weixin1{
+  position: absolute;
+  top:46vw;
+  left:50vw;
+  background-image: url("../images/weixin1.png");
+  background-size: 100% 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: #000;
+  height: 9.375vw;
+  width:38.53vw;
+  margin: 0 auto;
+  margin-left:-19.265vw;
+  text-align:center;
+}
+.wei_line1{
+  
+	width:100%;
+	text-align:center;
+	color:#ff0200;
+	font-weight: 700;
+	padding-top:2vw;
+	padding-left:3vw;
+	font-size:4vw;
+	}
+.xixi_zm_wap_dragon_main_2 {
+	 background: #d5d5d5 none repeat scroll 0 0;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    width: 640px;}
+.line {
+	margin: 0 auto;
+	padding:0 30px;
+	overflow:hidden
+	}
+.line_img{
+	float:left;
+	width:143px;
+	border:3px solid #fff;
+}
+.line_comment{
+	float:right;
+	text-align:left}
+.line_comment h2{
+	background: #fa3551;
+	margin: 0 auto;
+	padding: 5px;
+	color: #784618;
+	font-size: 20px;
+	font-weight: normal;
+	text-align:center!Important;
+	 color: #fff;
+	 width:60%;
+	 
+}
+.line_comment_box{
+	float:right;
+	width:100%;
+	text-align:left;
+	margin-top:5px;}
+.line_comment_box p{
+	margin: 0;
+	text-indent:40px;
+}
+.red{
+	color:#f20100}
+.underline{
+	text-decoration: underline;
+}
+.font24{
+	font-size:24px}
+.gu{
+	margin:20px auto;
+	}
+	
+.gu1{
+	width: 590px;
+	height:342px;
+	background-image: url("../images/gu1.jpg")/*tpa=http://jin808.com/sina1/mvcg/images/gu1.jpg*//*tpa=http://www.jin808.com/sina/20170307/images/gu1.jpg*/;
+	margin:0 auto;
+	
+}
+.gu2{
+	width: 584px;
+	height: 267px;
+	background-image: url("../images/gu2.jpg")/*tpa=http://jin808.com/sina1/mvcg/images/gu2.jpg*//*tpa=http://www.jin808.com/sina/20170307/images/gu2.jpg*/;
+	margin:0 auto;
+	border:3px solid #fff;
+}
+
+.main_2{
+	background:#fff;
+	text-align: center;
+	width: 640px;
+	position: fixed;
+	bottom: 0;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-right: 0;
+	padding-top:15px;
+	padding-left: 0;
+	}
+.weixin2{
+	color:#fff;
+	margin-bottom:15px}
+.weixin2 span{
+	color: #ffff00;
+	font-weight: 700;
+	margin-left:10px;
+	font-size:34px
+}
+.month_title{
+	margin: 10px auto;
+	width: 620px;
+	height: 56px;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	background-image: url("../images/title.jpg")/*tpa=http://jin808.com/sina1/mvcg/images/title.jpg*//*tpa=http://www.jin808.com/sina/20170307/images/title.jpg*/;
+	background-repeat: no-repeat;
+	background-position: left top;
+		font-weight: 700;
+	line-height: 50px;
+}
+.footer{
+	text-align: center;
+	background: #202020;
+	color: #fff;
+	font-size: 12px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+.footer strong{
+	background:#000;
+	border-radius:10px;
+	padding:5px 10px;
+	
+	}
+.footer p{
+	margin-top:10px}
+.note{
+	color:#4e4e4e;
+	font-size:0.7rem;
+	margin-top:0.3rem;
+	padding-top:0.3rem;
+	border-top:1px solid #4e4e4e;
+	background:#202020;}
+.note a{
+	color: #4e4e4e;
+	text-decoration: underline;
+}
+.month table{
+	border-collapse:collapse;
+	text-align:center;
+	width:620px;
+	color:#3e3e3e;
+	margin:0 auto;	
+}
+
+.month table th{
+	background:#fa3551;
+	color:#fff;
+	font-size:22px;
+	font-weight:700;
+	padding:0.52rem 0;
+	
+	
+}.month table td{
+	background:#ffffff;
+	padding:0.45rem 0;
+	border:1px solid #ccc;
+}
+.top10{
+	margin-top:15px}
+.txt{
+	text-align: right;
+	color: #8f8e8f;
+	font-size: 13px;
+	width: 620px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.longbtnbox{position: fixed;
+	bottom:0;
+	margin:0 auto;
+	font-size:0.3rem;	text-align:center;	width:640px;
+	background:#fff;
+	margin-left:0.1rem}
+.longbtn{
+	width:100%;
+	margin-top:0.1rem;
+	margin-bottom:0.1rem;
+	float:left;
+
+	color:#ff0000;
+	 font-size: 0.18rem;
+}
+.longbtnbox .no{
+	font-size:0.12rem;
+	margin-top:0.1rem;
+	margin-bottom:0.08rem;
+
+	text-align:center;
+	width:100%;}
+.longbtnbj{
+	background:#ff0000;
+	border-radius:5px;
+	text-align:center;
+	color:#fff;
+	float:left;
+	width:6.2rem;
+	font-size:0.3rem;
+	margin-bottom:0.1rem
+}
+.longbtnbj p {
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.4rem!important;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+.six{
+	width: 625px;
+	height: 187px;
+	background-image: url("../images/6.jpg")/*tpa=http://jin808.com/sina1/mvcg/images/6.jpg*//*tpa=http://www.jin808.com/sina/20170307/images/6.jpg*/;
+	background-repeat: no-repeat;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+}.right-roll {
+    position: fixed;
+    right: 5px;
+    top: 30%;
+    width: 120px;
+}
+.right-roll img {
+    max-width: 100%;
+	height:auto
+}
+.jyopenboxbg {
+    display: none;
+    left: 0;
+    position: fixed;
+    top: 30%;
+    width: 100%;
+   z-index: 100;
+}
+.jyopenboxbg img {
+    max-width: 100%;
+	height:auto;
+	
+	
+}
+
+.jyopenboxbg .p-btnlink {
+    margin-top: -180px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 10;
+}
+.jyopenbox {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 0 20px;
+	z-index:100
+}
+.jyopenbox .close {
+    bottom: -1%;
+    height: 70px;
+    position: relative;
+    z-index: 15;
+}
+
+.num-btn02 {
+    background-clip: padding-box;
+    background-color: #ffde00;
+  
+    border-radius: 40px;
+    box-shadow: 0 3px 0 #b68204;
+    color: #000;
+    display: block;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 5px 0;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+
+
+.xixi_zm_wap_dragon_main_1 {
+  width: 640px;
+  background: #efefef;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  }
+.weixin{
+    background-image: url("../images/weixin.png")/*tpa=http://jin808.com/sina1/mvcg/images/weixin.png*//*tpa=http://www.jin808.com/sina/20170307/images/weixin.png*/;
+    background-position: left top;
+    background-repeat: no-repeat;
+    color: #000;
+    height: 212px;
+    margin: 0 auto;
+    margin-left: 50px;
+    text-align:center;
+    width:523px;
+  padding-bottom:20px;
+  
+}
+.wei_line{
+  
+  width:100%;
+  text-align:center;
+  color:#ff0200;
+  font-weight: 700;
+  font-size:34px;
+  padding-top:80px;
+  
+  }

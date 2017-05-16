@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+body,h1,h2,h3,h4,h5,h6,p{margin:0;padding:0;}
+
+.imgBlock{display: block;margin:0 auto 3vw;}
+.u8{width:80vw;}
+.u9{width:90vw;}
+body{margin:0 auto;}
+h2{font-size:4vw;padding:10vw 0;}
+p.description{font-size: 3.8vw;color:#949494;text-align: center;margin-bottom: 4vw;}
+p.mainBody{font-size: 4vw;color:#4c4c4c;text-align: justify;line-height: 6vw;margin-bottom: 4vw;}
+p.mainBody.red,p.mainBody span.red{color:#ff2d41;}
+p.mainBody.noMargin{margin-bottom:0;}
+p.mainBody.gray{font-weight: bold;}
+.share{height:4vw;position: relative;}
+.share hr{margin-top:6vw;border:none;width:100%;height:1px;background:#ececec;}
+.share span{display:block;font-size: 4vw;width:20vw;text-align: center;background:#fff;position: absolute;top:-2.4vw;left:40vw;color:#b8b8b8;}
+
+.bdsharebuttonbox{width:90vw;}
+.bdsharebuttonbox::after{content: '';display: block;clear: both;}
+.bdsharebuttonbox .unit{width:30vw;float: left;text-align: center;}
+.bdsharebuttonbox a.bds_weixin{background:url(images/weixin.jpg) no-repeat center center;background-size: 100% 100%;display: block;float:none;margin:0 auto;}
+.bdsharebuttonbox a.bds_qzone{display: block;float:none;margin:0 auto;}
+.bdsharebuttonbox a.bds_tsina{display: block;float:none;margin:0 auto;}
+form{margin-top:10vw;}
+form .tel{width:80vw;padding:2vw 2vw;font-size:4vw;margin:0 auto;display: block;margin-bottom: 3vw;border-radius: 6px;outline: none;border:1px solid #666;}
+form .verifyGroup{width:80vw;margin:0 auto;height:10vw;margin-bottom: 3vw;}
+form .verifyGroup:after{content: '';display: block;clear: both;outline: none;}
+form .verify{padding-left:2vw;float: left;width:40vw;height:10vw;display: block;border-radius:  6px;outline: none;border:1px solid #666;}
+form .getVerify{float:right;width:40vw;height:10vw;display: block;background: #d3bfac;color:#fff;border-radius:  6px;border:none;outline: none;}
+form p{font-size:3vw;color:#ccc;text-align: center;margin-bottom: 3vw;}
+form a{font-size: 3vw;color:#fff;background: url(images/hot_btn2.jpg) repeat-x;background-size: contain;display: block;width: 76vw;margin: 0 auto;text-align: center;border-radius: 3vw;padding:2vw 0;margin-bottom: 3vw;}

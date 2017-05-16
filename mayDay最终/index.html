@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script type="text/javascript"> 
+			if(navigator.userAgent.match(/(iPhone|iPod|Android|ios|BlackBerry|IEMobile|Opera Mini)/i)){
+				var str = window.location.href;
+				var strFirst = str.indexOf('index.html');
+				str = str.substring(0,strFirst);
+				
+				console.log(strFirst);
+				console.log(str);
+				window.location.href = str +"m/index.html";
+			}
+		</script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lightbox.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头-->
+		<div class="wrap header">
+		</div>
+		<ul class='flag'>
+			<li>
+				<div class='info'>
+					<a class="example-image-link" data-lightbox="example-set-1" data-title="小米手环" href="img/xiaomi/1.jpg"><img src="img/header/header1.jpg" alt="" data="header1"/></a>
+					<a class="example-image-link" href="img/xiaomi/2.jpg" data-lightbox="example-set-1" data-title="小米手环"></a>
+					<a class="example-image-link" href="img/xiaomi/3.jpg" data-lightbox="example-set-1" data-title="小米手环"></a>
+					<a class="example-image-link" href="img/xiaomi/4.jpg" data-lightbox="example-set-1" data-title="小米手环"></a>
+					<a class="example-image-link" href="img/xiaomi/5.jpg" data-lightbox="example-set-1" data-title="小米手环"></a>
+				</div>
+				<span >小米手环</span>
+				</li>
+			<li>
+				<div class='info'>
+					<a class="example-image-link" data-lightbox="example-set-2" data-title="戴森风扇" href="img/dyson/1.jpg"><img src="img/header/header2.jpg" alt="" data="header2"/></a>
+					<a class="example-image-link" href="img/dyson/2.jpg" data-lightbox="example-set-2" data-title="戴森风扇"></a>
+					<a class="example-image-link" href="img/dyson/3.jpg" data-lightbox="example-set-2" data-title="戴森风扇"></a>
+					<a class="example-image-link" href="img/dyson/4.jpg" data-lightbox="example-set-2" data-title="戴森风扇"></a>
+					<a class="example-image-link" href="img/dyson/5.jpg" data-lightbox="example-set-2" data-title="戴森风扇"></a>							
+				</div>
+				<span >戴森风扇</span>
+			</li>
+			<li>
+				<div class='info'>
+					<a class="example-image-link" data-lightbox="example-set-3" data-title="索尼单反" href="img/SONY/1.jpg"><img src="img/header/header3.jpg" alt="" data="header3"/></a>
+					<a class="example-image-link" href="img/SONY/2.jpg" data-lightbox="example-set-3" data-title="索尼单反"></a>
+					<a class="example-image-link" href="img/SONY/3.jpg" data-lightbox="example-set-3" data-title="索尼单反"></a>
+					<a class="example-image-link" href="img/SONY/4.jpg" data-lightbox="example-set-3" data-title="索尼单反"></a>
+					<a class="example-image-link" href="img/SONY/5.jpg" data-lightbox="example-set-3" data-title="索尼单反"></a>	
+				</div>
+				<span >索尼单反</span>
+			</li>
+			<li class='last'>
+				<div class='info'>
+					<a class="example-image-link" data-lightbox="example-set-4" data-title="MacBook" href="img/Mac/1.jpg"><img src="img/header/header4.jpg" alt="" data="header4"/></a>
+					<a class="example-image-link" href="img/Mac/2.jpg" data-lightbox="example-set-4" data-title="MacBook"></a>
+					<a class="example-image-link" href="img/Mac/3.jpg" data-lightbox="example-set-4" data-title="MacBook"></a>
+					<a class="example-image-link" href="img/Mac/4.jpg" data-lightbox="example-set-4" data-title="MacBook"></a>
+					<a class="example-image-link" href="img/Mac/5.jpg" data-lightbox="example-set-4" data-title="MacBook"></a>	
+				</div>	
+		<span >MacBook</span>		
+			</li>
+		</ul>
+		<script type="text/javascript">
+			if($(window).width()<1100){
+				$('ul.flag').width($(window).width()).height(317*$(window).width()/1055).css({'left':0});
+			}else{
+				$('ul.flag').css('left',($(window).width()-1055)/2);
+			}
+			$(window).resize(function () {
+				if($(window).width()<1100){
+					$('ul.flag').width($(window).width()).height(317*$(window).width()/1055).css({'left':0});
+				}else{
+					$('ul.flag').css('left',($(window).width()-1055)/2);
+				}
+			});
+		</script>
+		<!--标题：活动规则-->
+		<div class="wrap title_rule">
+			<img src="img/title_rule.jpg" alt="" class="b_t"/>
+		</div>
+		<!--活动细节-->
+		<div class='wrap ruleDetail'>
+			<div class="contain">
+				<p>参与产品：恒指、原油、股指、螺纹钢、豆粕</p>
+				<p>参与对象：所有新老客户</p>
+				<p>活动要求：一人一户，不可重复计算</p>
+				<p>活动时间：2017.4.17---2017.5.12</p>
+				<p>奖品发放：奖品发放将于活动结束后7到10个工作日内安排发放</p>
+				<span>（本活动最终解释权归天地银合商品经营有限公司所有）</span>
+				<a href="#" class='join joinIn'></a>
+				<a href="#" class='check'></a>
+			</div>
+		</div>
+		<!--表格 收缩/展开-->
+		<div class="wrap detailTable">
+			<div class="contain">
+				<table>
+					<tr class='first'>
+						<th class='first'>
+							<span class='first'>礼品</span>
+							<span class='second'>手数要求</span>
+						</th>
+						<th>恒指/原油/股指</th>
+						<th>螺纹钢/豆粕</th>
+					</tr>
+					<tr>
+						<td>小米2代智能手环</td>
+						<td>30</td>
+						<td>300</td>
+					</tr>
+					<tr>
+						<td>戴森空气净化风扇智能版</td>
+						<td>500</td>
+						<td>5000</td>
+					</tr>
+					<tr>
+						<td>
+							<span>索尼(SONY)&nbsp;ILCE-6000L</span>
+							<span>APS-C微单单镜相机</span>
+						</td>
+						<td>800</td>
+						<td>8000</td>
+					</tr>
+					<tr>
+						<td>
+							<span>Apple MacBook Pro</span>
+							<span>15.4英寸笔记本电脑</span>
+						</td>
+						<td>1500</td>
+						<td>15000</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!--标题：奖品列表-->
+		<div class="wrap title_list">
+			<img class='b_t' src="img/title_list.jpg" alt="" />
+		</div>
+		<!--奖品细节-->
+		<div class="wrap prize prize1">
+			<div class="contain">
+				<div class='clear first'>
+					<div class="fl photo">
+						<a class="example-image-link" data-lightbox="example-set-5" data-title="小米手环" href="img/xiaomi/1.jpg"><img src="img/prize/prize_photo1.jpg" alt="" id="header1"/></a>
+						<a class="example-image-link" href="img/xiaomi/2.jpg" data-lightbox="example-set-5" data-title="小米手环"></a>
+						<a class="example-image-link" href="img/xiaomi/3.jpg" data-lightbox="example-set-5" data-title="小米手环"></a>
+						<a class="example-image-link" href="img/xiaomi/4.jpg" data-lightbox="example-set-5" data-title="小米手环"></a>
+						<a class="example-image-link" href="img/xiaomi/5.jpg" data-lightbox="example-set-5" data-title="小米手环"></a>
+					</div>
+					<div class='fr txt '>
+						<h4></h4>
+						<h4>小米2代智能手环</h4>
+						<hr />
+						<p>看得见得时刻，和你得每一步</p>
+						<p>来电提醒|时间|显示|步数显示|心率测量</p>
+						<hr />
+						<img src="img/prize/prize1_1.jpg" alt="" />
+						<img src="img/prize/prize1_2.jpg" alt="" />
+						<a href="#" class='joinIn'></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap prize prize2">			
+			<div class="contain">
+				<div class='clear'>
+					<div class='fl txt'>
+						<h4></h4>
+						<h4>戴森空气净化风扇智能版</h4>
+						<hr />
+						<p>大牌黑科技，智能合一</p>
+						<p>遥控&nbsp;|&nbsp;净化&nbsp;|&nbsp;凉爽&nbsp;|&nbsp;除霾</p>
+						<hr />
+						<img src="img/prize/prize2_1.jpg" alt="" />
+						<img src="img/prize/prize2_2.jpg" alt="" />
+						<a href="#" class='joinIn'></a>
+					</div>
+					<div class="fr photo">
+						<a class="example-image-link" data-lightbox="example-set-6" data-title="戴森风扇" href="img/dyson/1.jpg">
+							<img src="img/prize/prize_photo2.jpg" alt="" id="header2"/>
+						</a>
+						<a class="example-image-link" href="img/dyson/2.jpg" data-lightbox="example-set-6" data-title="戴森风扇"></a>
+						<a class="example-image-link" href="img/dyson/3.jpg" data-lightbox="example-set-6" data-title="戴森风扇"></a>
+						<a class="example-image-link" href="img/dyson/4.jpg" data-lightbox="example-set-6" data-title="戴森风扇"></a>
+						<a class="example-image-link" href="img/dyson/5.jpg" data-lightbox="example-set-6" data-title="戴森风扇"></a>							
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap prize prize3">
+			
+			<div class="contain">
+				<div class='clear'>
+					<div class="fl photo">
+						<a class="example-image-link" data-lightbox="example-set-7" data-title="索尼单反" href="img/SONY/1.jpg">
+							<img src="img/prize/prize_photo3.jpg" alt="" id="header3"/>
+						</a>
+						<a class="example-image-link" href="img/SONY/2.jpg" data-lightbox="example-set-7" data-title="索尼单反"></a>
+						<a class="example-image-link" href="img/SONY/3.jpg" data-lightbox="example-set-7" data-title="索尼单反"></a>
+						<a class="example-image-link" href="img/SONY/4.jpg" data-lightbox="example-set-7" data-title="索尼单反"></a>
+						<a class="example-image-link" href="img/SONY/5.jpg" data-lightbox="example-set-7" data-title="索尼单反"></a>	
+					</div>
+					<div class='fr txt '>
+						<h4></h4>
+						<h4>索尼爆款微单</h4>
+						<hr />
+						<p>4D对焦，快速精准，随心操控，锁定精彩</p>
+						<p>2430万像素，质感机身，轻盈拍摄你的大片</p>
+						<hr />
+						<img src="img/prize/prize3_1.jpg" alt="" />
+						<img src="img/prize/prize3_2.jpg" alt="" />
+						<a href="#" class='joinIn'></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap prize prize4">			
+			<div class="contain">
+				<div class='clear'>
+					<div class='fl txt'>
+						<h4>Apple MacBook Pro</h4>
+						<h4>15.4英寸笔记本电脑</h4>
+						<hr />
+						<p>纤细|轻巧|强劲</p>
+						<hr />
+						<img src="img/prize/prize4_1.jpg" alt="" />
+						<img src="img/prize/prize4_2.jpg" alt="" />
+						<a href="#" class='joinIn'></a>
+					</div>
+					<div class="fr photo">
+						<a class="example-image-link" data-lightbox="example-set-8" data-title="MacBook" href="img/Mac/1.jpg">
+							<img src="img/prize/prize_photo4.jpg" alt="" id="header4"/>
+						</a>
+						<a class="example-image-link" href="img/Mac/2.jpg" data-lightbox="example-set-8" data-title="MacBook"></a>
+						<a class="example-image-link" href="img/Mac/3.jpg" data-lightbox="example-set-8" data-title="MacBook"></a>
+						<a class="example-image-link" href="img/Mac/4.jpg" data-lightbox="example-set-8" data-title="MacBook"></a>
+						<a class="example-image-link" href="img/Mac/5.jpg" data-lightbox="example-set-8" data-title="MacBook"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--结尾epilog-->
+		<div class="wrap epilog">
+			<img class='b_t' src="img/epilog.jpg" alt="" />
+		</div>
+		<!--footer-->
+		<div class="wrap footer">
+			<img class='b_t' src="img/footer.jpg" alt="" />
+		</div>
+		<!--show产品展示-->
+		<div class="show">
+			<div class='show_bg'></div>
+			<a href="#" class='prev btn'>&lt;</a>
+			<img src="img/xiaomi/1.jpg"  />
+			<a href="#" class='next btn'>&gt;</a>
+			<!--<a href="#" class='close'>×</a>-->
+		</div>
+		<!--register开户参与-->
+		<div class="register">
+			<form action="">
+				<h3>开户参与</h3>
+				<input class='first' type="text" value="姓名"  name="Cname" id="name"/>
+				<input type="text"  value="电话" name="mobile" id="mobile"/>
+				<input class='last' type="text" value="验证码"  name="mobile_verify" id="mobile_verify"/>
+				<button type='button' class='auth' id="GetVerify">获取验证码</button>
+				<span class='hint'></span>
+				<button type='button' class='sure'  name="dosubmit">立即领取</button>
+				<a href="#" class='close'>×</a>
+			</form>
+		</div>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
